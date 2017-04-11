@@ -1,6 +1,6 @@
-var tweetBotJs = require('twit');
+let tweetBotJs = require('twit');
 
-var Twitter = new  tweetBotJs({
+let Twitter = new  tweetBotJs({
     consumer_key:         'yVR7czqz0wkrixWP4rLzYYvRm' //  Consumer Key
   , consumer_secret:      'vbZlrJ3d6MsOIPG7bIVHo4OJnK8VJE1v1jAHfsDWxy21gpYrGb' //  Consumer Secret
   , access_token:         '1382063460-nFQvtrzoJRtmtVXd4PuJWZNkHzmHW7GsepFiLM1' // Access Token
